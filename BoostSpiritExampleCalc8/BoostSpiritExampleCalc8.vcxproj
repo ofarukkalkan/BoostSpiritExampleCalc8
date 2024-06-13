@@ -19,22 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="annotation.hpp" />
     <ClInclude Include="ast.hpp" />
-    <ClInclude Include="compiler.hpp" />
     <ClInclude Include="error_handler.hpp" />
     <ClInclude Include="expression.hpp" />
     <ClInclude Include="expression_def.hpp" />
-    <ClInclude Include="statement.hpp" />
-    <ClInclude Include="statement_def.hpp" />
-    <ClInclude Include="vm.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="compiler.cpp" />
     <ClCompile Include="expression.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="statement.cpp" />
-    <ClCompile Include="vm.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

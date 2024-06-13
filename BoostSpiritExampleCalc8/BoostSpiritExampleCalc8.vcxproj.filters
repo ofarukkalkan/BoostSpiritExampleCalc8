@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="compiler.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="error_handler.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -25,18 +22,6 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="expression_def.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="statement.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="statement_def.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="vm.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="annotation.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="ast.hpp">
@@ -48,15 +33,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="statement.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="compiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
